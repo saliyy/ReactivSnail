@@ -1,0 +1,143 @@
+  @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+
+  @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+  
+  .jumbotron h1 {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+
+  .header
+  {
+      background-color: orange;
+     
+  }
+
+  .hrefka
+  {
+
+      padding-left: 580px;
+      padding-top: 8px;
+
+      
+  }
+
+  .zho
+  {
+      
+      padding-right: 0;
+      padding-top: 7px;
+
+    
+  }
+
+  .label {
+    text-shadow:
+      1px 1px white,
+      2px 2px #777;
+      color: seagreen;
+    transition: all 1s;
+  }
+  
+  .label:hover {
+    text-shadow:
+      1px 1px white,
+      2px 2px tomato;
+    color: crimson;
+  }
+
+
+  .label
+  {
+      font-size: 24px;
+      text-align: left;
+      
+  }
+
+  .usercss
+  {
+      font-style: inherit;
+      font-size: 20px;
+      font-weight: 300;
+      margin-left: 15%;
+      white-space: nowrap;
+  }
+
+      .category
+    {
+
+    text-shadow:
+    -1px -1px #FFF,
+    -2px -2px #FFF,
+    -1px 1px #FFF,
+    -2px 2px #FFF,
+    1px 1px #FFF,
+    2px 2px #FFF,
+    1px -1px #FFF,
+    2px -2px #FFF,
+    -3px -3px 2px #BBB,
+    -3px 3px 2px #BBB,
+    3px 3px 2px #BBB,
+    3px -3px 2px #BBB;
+  color: orange;
+  transition: all 1s;
+}
+
+strong
+{
+    margin-right: 5px;
+}
+
+.category:hover {
+  color: yellowgreen;
+}
+    
+
+  .technick
+    {
+        color:orange
+    }
+
+ 
+
+  .card-deck {
+    @include media-breakpoint-only(lg) {
+      column-count: 3;
+    }
+
+
+    
+
+    
+
+
+  
